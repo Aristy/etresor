@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: etresor-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: etresor
+      POSTGRES_PASSWORD: etresor
+      POSTGRES_DB: etresor
+    ports:
+      - "5432:5432"
+    volumes:
+      - etresor_pgdata:/var/lib/postgresql/data
+volumes:
+  etresor_pgdata:
+    driver: local
