@@ -1,0 +1,36 @@
+├── .github
+│   └── workflows
+├── apps
+│   ├── mobile
+│   │   ├── App.js
+│   │   ├── app.json
+│   │   └── package.json
+│   ├── pos
+│   │   └── README.md
+│   ├── ussd
+│   │   ├── src
+│   │   │   ├── index.js
+│   │   │   └── menus.js
+│   │   ├── .env.example
+│   │   ├── package.json
+│   │   └── README.md
+│   └── web
+│       └── README.md
+├── docs
+│   └── INDEX.md
+├── infra
+│   └── docker
+│       └── docker-compose.dev.yml
+├── packages
+│   ├── config
+│   │   └── README.md
+│   ├── types
+│   │   └── README.md
+│   └── ui-kit
+│       └── README.md
+├── scripts
+│   └── dev.ps1
+├── .editorconfig
+├── .gitignore
+├── pnpm-workspace.yaml
+└── README.md

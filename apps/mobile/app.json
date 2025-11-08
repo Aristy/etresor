@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "eTresor",
+    "slug": "etresor",
+    "scheme": "etresor",
+    "orientation": "portrait",
+    "plugins": [],
+    "sdkVersion": "52.0.0"
+  }
+}

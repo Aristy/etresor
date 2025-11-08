@@ -1,0 +1,26 @@
+# Node
+node_modules/
+npm-debug.log*
+pnpm-lock.yaml
+yarn.lock
+
+# Android / Expo
+*.keystore
+*.jks
+*.apk
+*.aab
+.expo/
+.expo-shared/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
