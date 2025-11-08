@@ -2,12 +2,13 @@
   "expo": {
     "name": "eTresor",
     "slug": "etresor",
+    "entryPoint": "./index.js",
     "scheme": "etresor",
     "orientation": "portrait",
-    "entryPoint": "./index.js",
-    "plugins": [
-      "expo-asset"
-    ],
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "extra": {
       "apiBase": "http://169.239.181.3"
     },
